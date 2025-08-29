@@ -111,6 +111,7 @@ public:
 	virtual const bool getHidden() const;
 	virtual const bool getFavorite() const;
 	virtual const bool getKidGame() const;
+	virtual const bool getFinished() const;
 	virtual const bool hasCheevos();
 
 	bool hasAnyMedia();
