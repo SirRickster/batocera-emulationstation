@@ -112,6 +112,7 @@ public:
 	virtual const bool getFavorite() const;
 	virtual const bool getKidGame() const;
 	virtual const bool getFinished() const;
+	virtual const std::string getFinishedDate() const;
 	virtual const bool hasCheevos();
 
 	bool hasAnyMedia();
